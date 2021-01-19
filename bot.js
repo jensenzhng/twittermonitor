@@ -1,6 +1,6 @@
 const Discord = require('discord.js.old');
 const bot = new Discord.Client();
-const tesseract = require("node-tesseract-ocr");
+// const tesseract = require("node-tesseract-ocr");
 const fs = require('fs'),
     request = require('request');
 const Twit = require('twit');
