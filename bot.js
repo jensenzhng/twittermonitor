@@ -472,7 +472,7 @@ function getData() {
     }
 }
 
-setInterval(getData, 430);
+setInterval(getData, 1200);
 
 /*to do:
 .clear command - done
