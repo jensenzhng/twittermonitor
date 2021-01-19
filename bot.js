@@ -334,7 +334,6 @@ function checkUser(user) {
                 .setTimestamp()
                 .setFooter('made with <3 by dragonlordslayer69');
             if (userEmphasis.toLowerCase() == user.screen_name.toLowerCase()) {
-
                 channel.send('@everyone', { embed: embed });
             } else {
                 channel.send(embed);
@@ -362,6 +361,7 @@ function checkUser(user) {
                     }
                 }
             }
+            latestTweetID = user.status.id_str;
         }
     }
 }
