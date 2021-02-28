@@ -5,13 +5,14 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node bot.js"
+        "start": "node newbot.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
         "discord.js.old": "^11.6.5",
+        "mongoose": "^5.11.15",
         "request": "^2.88.2",
         "twit": "^2.2.11"
     }
