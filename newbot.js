@@ -46,16 +46,3 @@ bot.on('message', async msg => {
 
 //bottokenhere
 bot.login("").catch(console.error());
-
-//Idea for switching api keys: keep a global variable that starts at 1, everytime you run the setinterval you increase the variable
-//check alo.js for example, use T.setAuth
-
-
-/*to do:
-.clear command - done
-picture/video/gif support - done
-pastebin scraping
-new endpoint!!!!!
-more api keys
-ocr - done
-*/
